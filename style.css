@@ -12,6 +12,11 @@ a:hover{
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
 }
+
+h2 {
+    line-height: 1.4;
+}
+
 p {
   margin: 0 0 15px;
 }
@@ -125,9 +130,15 @@ header {
     border-radius: 3px;
 }
 
-
 .bg-black {
     background: #000;
+}
+
+.bg-black-block {
+    background: #000;
+}
+.bg-black:hover {
+    background: #014876;
 }
 
 .bg-light {
@@ -139,10 +150,12 @@ header {
 }
 
 .hero-content:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 
-
+.center-button-wrapper {
+    text-align: center;
+}
 
 .weight-300 {
     font-weight: 300;
@@ -153,7 +166,7 @@ header {
 }
 
 .hero-content--left h4 {
-    font-size: 26px;
+    font-size: 25px;
     line-height: 40px;
 }
 
@@ -294,9 +307,9 @@ header {
 }
 
 .custom-control-input:checked~.custom-control-label:before {
-    color: #fff;
-    border-color: #c9ced6;
-    background-color: #c9ced6;
+    color: #000;
+    border-color: #000;
+    background-color: #000;
 }
 
 .footer-bottom {
